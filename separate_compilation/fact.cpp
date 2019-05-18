@@ -1,0 +1,10 @@
+int fact(int i){
+    if (i <= 1){
+
+        return 1;
+    }
+    else{
+        return fact(i-1) * i;
+    }
+
+}
