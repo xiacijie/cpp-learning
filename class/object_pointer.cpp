@@ -12,7 +12,7 @@ class A{
 
 
 
-void printVal(A a){
+void printVal(A& a){
     a.value = 3;
     cout << a.value << endl;
 }
